@@ -1,0 +1,8 @@
+<% for(var i = 0; i < data.length; i++){ %>
+  <% var update = data[i] %>
+  <li class="<%= update.story_type %>">
+    <p><%= update.description %></p>
+    <h3><%= update.story_name %></h3>
+    <p><em><%= update.when %></em></p>
+  </li>
+<% } %>

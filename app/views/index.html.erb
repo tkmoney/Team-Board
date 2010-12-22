@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+      <title>Status</title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+      <script src="/javascripts/ejs_production.js"></script>
+      <script src="/javascripts/app.js"></script>
+  </head>
+  <body>
+  <div id="container">
+
+    <section id="tracker" class="table">
+      <div class="card">
+        <div class="front display">
+          <div class="activity">
+            <h2>ACTIVITY FEED <em>hiya backlog</em></h2>
+            <ul>
+            </ul>
+          </div><!-- end .activity -->
+
+          <div class="task_status table">
+            <div class="tasks_started">
+              <ul>
+                <li class="feature">
+                  <div>
+                    <p>owned by Steve Jang</p>
+                    <h3>RPC performance improvements (reduce import time ~10x)</h3>
+                    <p><em>started about 2 days ago</em></p>
+                  </div>
+                </li>
+                <li class="feature">
+                  <div>
+                    <p>owned by Tim Miller</p>
+                    <h3>Tool to generate appends, dupes, invites, updates</h3>
+                    <p><em>started about 1 day ago</em></p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="tasks_delivered">
+              <ul>
+                <li class="feature">
+                  <div>
+                    <p>owned by Steve Jang</p>
+                    <h3>RPC performance improvements (reduce import time ~10x)</h3>
+                    <p><em>started about 2 days ago</em></p>
+                  </div>
+                </li>
+                <li class="feature">
+                  <div>
+                    <p>owned by Tim Miller</p>
+                    <h3>Tool to generate appends, dupes, invites, updates</h3>
+                    <p><em>started about 1 day ago</em></p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div><!-- end .task_status -->
+
+        </div><!-- end .front display -->
+        <div class="back config">
+          <form>
+            <input type="text" />
+            <button>OK</button>
+          </form>
+        </div><!-- end .back config -->
+      </div>
+    </section>
+
+
+    <div class="table">
+      <section id="bugzilla">
+        <div class="card">
+          <div class="front display">
+            <h2>249 BUGS</h2>
+            <ul>
+              <li>0 P1s</li>
+              <li>8 P2s</li>
+              <li>240 P3s</li>
+              <li>1 P2s</li>
+            </ul>
+          </div>
+          <div class="back config">
+            <form>
+              <input type="text" />
+              <button>OK</button>
+            </form>
+          </div>
+        </div>
+      </section>
+  
+      <section id="checkins">
+        <div class="card">
+          <div class="front display">
+            <h2>Git Activity</h2>
+            <ul>
+              <li>
+                <h3>ipeople_integration: changed msquires2 service settings</h3>
+                <p><em>December 17, 2010 11:33 AM</em></p>
+              </li>
+              <li>
+                <h3>Merge branch 'bug_34890' into ipeople_integration</h3>
+                <p><em>December 16, 2010 3:54 PM</em></p>
+              </li>
+              <li>
+                <h3>34890: if sending one email invite fails, continue sending the rest of the emails...</h3>
+                <p><em>December 16, 2010 3:52 PM</em></p>
+              </li>
+              <li>
+                <h3>34954: check for boolean as well as string 't'</h3>
+                <p><em>December 16, 2010 3:33 PM</em></p>
+              </li>
+            </ul>
+          </div>
+          <div class="back config">
+            <form>
+              <input type="text" />
+              <button>OK</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+
+  </div>
+  </body>
+</html>
